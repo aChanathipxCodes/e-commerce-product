@@ -1,3 +1,4 @@
+import "./style.css";
 import logo from "./logo.svg";
 import cart from "./icon-cart.svg";
 import profile from "./profile.png";
@@ -252,7 +253,7 @@ export function Image() {
       <div className="product-body">
         <img src={product1} alt="product-1" className="product-big" />
         <div className="thumbnail">
-          {productThumbnail.map((productImage) => (
+          {productImage.map((productImage) => (
             <Fragment key={productImage.id}>
               <img src={productImage.src} alt={productImage.alt} />
             </Fragment>
