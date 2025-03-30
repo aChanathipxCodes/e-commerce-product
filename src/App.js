@@ -1,0 +1,12 @@
+import logo from "./logo.svg";
+import cart from "./icon-cart.svg";
+import profile from "./profile.png";
+import product1 from "./product-1.jpg";
+import product2 from "./product-2.jpg";
+import product3 from "./product-3.jpg";
+import product4 from "./product-4.jpg";
+import product5 from "./product-5.jpg";
+import cartDelete from "./icon-delete.svg";
+import open from "./icon-menu.svg";
+import close from "./icon-close.svg";
+import { Fragment, useState } from "react";
