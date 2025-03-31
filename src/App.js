@@ -167,7 +167,7 @@ setToggleMenu((prev)=> !prev);
           {/* logo */}
 
           <div>
-            <img src={logo} alt="logo" />
+             <img src={logo} alt="logo" className="logo" style={{ width: "150px", height: "auto" }} />
           </div>
 
           {/* nav links */}
