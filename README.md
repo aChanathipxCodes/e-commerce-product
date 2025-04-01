@@ -1,6 +1,6 @@
 ## Installation 
 $ npm install \
-$ npm start \
+$ npm start 
 ## Dependencies
 loader-utils 3.2.1 \
 react 18.2.0 \
